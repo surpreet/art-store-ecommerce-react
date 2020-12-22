@@ -1,0 +1,38 @@
+.page-header,
+.user {
+  background-color: var(--danger-background);
+  width: 1080px;
+
+  /* padding: var(--med-size); */
+  border-bottom: var(--tiny-size) solid var(--white);
+}
+
+.page-header *,
+.user * {
+  /*color: var(--white);*/
+  color: #941B0C
+}
+
+.user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--med-size);
+}
+
+.user li {
+  /*background-color: var(--primary-button);*/
+  background-color: #CC7E85;
+  padding: var(--small-size) var(--med-size);
+  border-radius: var(--med-border-radius);
+}
+
+.user li button {
+  /*background-color: var(--primary-button);*/
+  background-color: #4B244A;
+  border: none;
+}
+
+.auth-form {
+  color: var(--white);
+}

@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Rainy night in Paris",
+      "price": 80,
+      "description": "Red lady in Paris!",
+      "image": "imgs/Realism/rainy-night.JPG",
+      "category": "Realism"
+    },
+    {
+      "id": 2,
+      "name": "Pink flowers",
+      "price": 150,
+      "description": "Feel the smell of these pink flowers!",
+      "image": "imgs/Realism/pink-flower.jpg",
+      "category": "Realism"
+    },
+    {
+      "id": 3,
+      "name": "Pomegranat Basket",
+      "price": 100,
+      "description": "Complete your Yalda night with this basket",
+      "image": "imgs/Realism/pomeg.jpg",
+      "category": "Realism"
+    },
+    {
+      "id": 4,
+      "name": "Termeh",
+      "price": 400,
+      "description": "Remember the beauty of Yalda!",
+      "image": "imgs/Realism/terme.jpg",
+      "category": "Realism"
+    },
+    {
+      "id": 5,
+      "name": "A beautiful lady",
+      "price": 800,
+      "description": "Looking at horizon !",
+      "image": "imgs/Realism/lady_home.jpg",
+      "category": "Realism"
+    }, 
+    {
+      "id": 6,
+      "name": "A big pink flower",
+      "price": 80,
+      "description": "Add some color to your room with this beautiful flower !",
+      "image": "imgs/Abstract/lightPink.jpg",
+      "category": "Abstract"
+    }, 
+    {
+      "id": 7,
+      "name": "A dark pink flower",
+      "price": 70,
+      "description": "Picture it in your room !",
+      "image": "imgs/Abstract/pinkFlower.jpg",
+      "category": "Abstract"
+    }, 
+   	{
+      "id": 8,
+      "name": "Sunset",
+      "price": 396,
+      "description": "The beauty of sunset!",
+      "image": "imgs/Impressionism/sky.jpeg",
+      "category": "Impressionism"
+    }, 
+    {
+      "id": 9,
+      "name": "The starry night",
+      "price": 400,
+      "description": "vans van gogh reproduction!",
+      "image": "imgs/Impressionism/vangoug.jpeg",
+      "category": "Impressionism"
+    }
+    , 
+    {
+      "id": 10,
+      "name": "Trees in fall",
+      "price": 470,
+      "description": "vans van gogh reproduction!",
+      "image": "imgs/Impressionism/tree.jpeg",
+      "category": "Impressionism"
+    }
+    , 
+    {
+      "id": 11,
+      "name": "Flowers on head",
+      "price": 240,
+      "description": "Beautiful woman painting with flower head !",
+      "image": "imgs/Modern/headFlower.jpg",
+      "category": "Modern"
+    }
+    , 
+    {
+      "id": 11,
+      "name": "Kitchen dishes",
+      "price": 50,
+      "description": "Cubism style of your dishes!",
+      "image": "imgs/Modern/pot.jpeg",
+      "category": "Cubism"
+    }
+
+
+
+
+  ],
+  "itemFields": [
+    "name",
+    "price",
+    "category"
+  ],
+  "itemCategories": [
+    "all",
+    "Realism",
+    "Abstract",
+    "Impressionism",
+    "Modern",
+    "Cubism"
+  ],
+  "users": [
+    {
+      "isLoggedIn": true,
+      "cart": [],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "username": "Arezoo",
+      "isLoggedIn": false,
+      "cart": []
+    }
+  ]
+}

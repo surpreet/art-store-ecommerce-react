@@ -30,12 +30,16 @@ export default function Header(props) {
           </>
         ) : (
           <>
-            <li>{user.email}</li>
+          {user.isLoggedIn?
+            <li>{user.email}</li>:null}
             <li>
               <Link to="/cart">Cart</Link>
             </li>
             <li>
               <button onClick={handleSignOut}>Sign out</button>
+            </li>
+            <li>
+              <Link to="/AboutUs">About us</Link>
             </li>
           </>
         )}

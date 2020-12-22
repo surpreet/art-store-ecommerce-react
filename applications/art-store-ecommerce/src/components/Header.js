@@ -40,7 +40,7 @@ export default function Header(props) {
           </>
         )}
       </ul>
-      <p><img src={logo} alt="Example3" width="100%" height="170" /> </p>
+      <p><img src={logo} alt="galleryImages" width="100%" height="170" /> </p>
     </header>
     </>
   );
